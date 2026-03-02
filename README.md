@@ -46,7 +46,7 @@ docker run --rm -it -p 8888:8888 -v "$(pwd):/app" projet_final jupyter-notebook 
 - Ajustement progressif du `Dockerfile` et du `requirements.txt` (ex. ajout de `umap-learn`).
 - Travail sur les notebooks (`.ipynb`) via le navigateur, avec sauvegarde automatique sur la machine locale grâce au volume.
 
-### Mise à jour du code et des données sans rebuild (+1 pt)
+### Mise à jour du code et des données sans rebuild
 
 Le montage de volume permet de tester de nouvelles données ou de modifier `evaluate.py` **sans reconstruire l'image Docker**.  
 Pour exécuter le script d'évaluation avec le code de la machine hôte :
@@ -150,6 +150,7 @@ Lancer l'évaluation complète :
    ```bash
 docker run --rm -it projet-final-git
    ```
+
 
 
 
