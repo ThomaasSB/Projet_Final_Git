@@ -49,11 +49,7 @@ docker run --rm -it -p 8888:8888 -v "$(pwd):/app" projet_final jupyter-notebook 
 ### Mise à jour du code et des données sans rebuild
 
 Le montage de volume permet de tester de nouvelles données ou de modifier `evaluate.py` **sans reconstruire l'image Docker**.  
-Pour exécuter le script d'évaluation avec le code de la machine hôte :
 
-```bash
-docker run --rm -v "$(pwd):/app" projet_final python evaluate.py
-```
 
 ---
 ## Méthodes Implémentées
@@ -150,6 +146,7 @@ Lancer l'évaluation complète :
    ```bash
 docker run --rm -it projet-final-git
    ```
+
 
 
 
