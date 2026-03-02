@@ -148,8 +148,9 @@ Build de l'image :
 Lancer l'évaluation complète :
 
    ```bash
-docker run --rm projet-final-git
+docker run --rm -it projet-final-git
    ```
+
 
 
 
