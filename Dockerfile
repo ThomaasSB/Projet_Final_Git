@@ -6,4 +6,4 @@ COPY requirements.txt .
 
 RUN pip install --no-cache-dir requirements.txt 
 
-CMD ["python", "evaluate.py"]
+ENTRYPOINT ["python", "evaluate.py"]
